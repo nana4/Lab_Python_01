@@ -1,328 +1,65 @@
-Python 2.7.2+ (default, Oct  4 2011, 20:03:08) 
-[GCC 4.6.1] on linux2
-Type "copyright", "credits" or "license()" for more information.
-==== No Subprocess ====
->>> 
-###########################
-The year starts from March
-eg. March = 1
- April = 2
- May = 3
- June = 4
- July = 5
- August = 6
- September = 7
- October = 8
- November = 9
- December = 10
- January = 11
- February = 12
-###########################
- 
-Enter your first name: al
-Enter your last name: s
-Enter your date of birth
-Month (1-12)?10
-Day?18
-Year?1989
-the day is 1
-Traceback (most recent call last):
-  File "/home/aiti-student/zeller's.py", line 57, in <module>
-    print f_name+ " "+ l_name +" was born on "+ A,B+  ""+ C +" of day"+ day
-NameError: name 'l_name' is not defined
->>> 
-###########################
-The year starts from March
-eg. March = 1
- April = 2
- May = 3
- June = 4
- July = 5
- August = 6
- September = 7
- October = 8
- November = 9
- December = 10
- January = 11
- February = 12
-###########################
- 
-Enter your first name: a
-Enter your last name: as
-Enter your date of birth
-Month (1-12)?10
-Day?18
-Year?1989
-the day is 1
-Traceback (most recent call last):
-  File "/home/aiti-student/zeller's.py", line 57, in <module>
-    print f_name+ " "+ s_name +" was born on "+ A,B+  ""+ C +" of day"+ day
-TypeError: cannot concatenate 'str' and 'int' objects
->>> 
-###########################
-The year starts from March
-eg. March = 1
- April = 2
- May = 3
- June = 4
- July = 5
- August = 6
- September = 7
- October = 8
- November = 9
- December = 10
- January = 11
- February = 12
-###########################
- 
-Enter your first name: a
-Enter your last name: a
-Enter your date of birth
-Month (1-12)?10
-Day?18
-Year?1989
-the day is 1
-Traceback (most recent call last):
-  File "/home/aiti-student/zeller's.py", line 57, in <module>
-    print f_name+ " "+ s_name +" was born on "+ A+B+  ""+ C +" of day"+ day
-TypeError: cannot concatenate 'str' and 'int' objects
->>> 
-###########################
-The year starts from March
-eg. March = 1
- April = 2
- May = 3
- June = 4
- July = 5
- August = 6
- September = 7
- October = 8
- November = 9
- December = 10
- January = 11
- February = 12
-###########################
- 
-Enter your first name: asas
-Enter your last name: asas
-Enter your date of birth
-Month (1-12)?10
-Day?18
-Year?1989
-the day is 1
-Traceback (most recent call last):
-  File "/home/aiti-student/zeller's.py", line 57, in <module>
-    print f_name+ " "+ s_name +" was born on "+ A+B+  ""+ C +" of day"
-TypeError: cannot concatenate 'str' and 'int' objects
->>> 
-###########################
-The year starts from March
-eg. March = 1
- April = 2
- May = 3
- June = 4
- July = 5
- August = 6
- September = 7
- October = 8
- November = 9
- December = 10
- January = 11
- February = 12
-###########################
- 
-Enter your first name: a
-Enter your last name: a
-Enter your date of birth
-Month (1-12)?10
-Day?18
-Year?1989
-the day is 1
-Traceback (most recent call last):
-  File "/home/aiti-student/zeller's.py", line 57, in <module>
-    print f_name+ " "+  ++ +B+  ""+ C +" of day"
-TypeError: cannot concatenate 'str' and 'int' objects
->>> 
-###########################
-The year starts from March
-eg. March = 1
- April = 2
- May = 3
- June = 4
- July = 5
- August = 6
- September = 7
- October = 8
- November = 9
- December = 10
- January = 11
- February = 12
-###########################
- 
-Enter your first name: a
-Enter your last name: a
-Enter your date of birth
-Month (1-12)?10
-Day?18
-Year?1989
-the day is 1
-a
-a
- was born on 
-10
-18
-89
-19
->>> 1989%100
-89
->>> 
-###########################
-The year starts from March
-eg. March = 1
- April = 2
- May = 3
- June = 4
- July = 5
- August = 6
- September = 7
- October = 8
- November = 9
- December = 10
- January = 11
- February = 12
-###########################
- 
-Enter your first name: 
-	1989aa
-Enter your last name: s
-Enter your date of birth
-Month (1-12)?10
-Day?18
-Year?1989
-the day is 1
 
-	1989aa s was born on Monday
->>> 
-###########################
-The year starts from March
-eg. March = 1
- April = 2
- May = 3
- June = 4
- July = 5
- August = 6
- September = 7
- October = 8
- November = 9
- December = 10
- January = 11
- February = 12
-###########################
- 
-Enter your first name: a
-Enter your last name: a
-Enter your date of birth
-Month (1-12)?10
-Day?18
-Year?1989
-Traceback (most recent call last):
-  File "/home/aiti-student/zeller's.py", line 58, in <module>
-    print f_name+" "+s_name+" was born on "+" "+A+" "+B+" "+day
-TypeError: cannot concatenate 'str' and 'int' objects
->>> 
-###########################
-The year starts from March
-eg. March = 1
- April = 2
- May = 3
- June = 4
- July = 5
- August = 6
- September = 7
- October = 8
- November = 9
- December = 10
- January = 11
- February = 12
-###########################
- 
-Enter your first name: a
-Enter your last name: a
-Enter your date of birth
-Month (1-12)?10
-Day?18
-Year?1989
-The day is day
->>> 
-###########################
-The year starts from March
-eg. March = 1
- April = 2
- May = 3
- June = 4
- July = 5
- August = 6
- September = 7
- October = 8
- November = 9
- December = 10
- January = 11
- February = 12
-###########################
- 
-Enter your first name: a
-Enter your last name: a
-Enter your date of birth
-Month (1-12)?10
-Day?18
-Year?1989
-The day is Monday
->>> 
-###########################
-NOTE: The year starts from March
-ie. March = 1
- April = 2
- May = 3
- June = 4
- July = 5
- August = 6
- September = 7
- October = 8
- November = 9
- December = 10
- January = 11
- February = 12
-###########################
- 
-Enter your first name: alex
-Enter your last name: antwi
-Enter your date of birth
-Month (1-12)?10
-Day?18
-Year?1989
-The day is Monday
->>> 
-###########################
-NOTE: The year starts from March
-ie. March = 1
- April = 2
- May = 3
- June = 4
- July = 5
- August = 6
- September = 7
- October = 8
- November = 9
- December = 10
- January = 11
- February = 12
-###########################
- 
-Enter your first name: alex
-Enter your last name: antwi
-Enter your date of birth
-Month (1-12)?10
-Day?18
-Year?1989
-alex antwi,your day is Monday
->>> 
+print "###########################"
+print "NOTE: The year starts from March"
+print "ie. March = 1"
+print " April = 2"
+print " May = 3"
+print " June = 4"
+print " July = 5"
+print " August = 6"
+print " September = 7"
+print " October = 8"
+print " November = 9"
+print " December = 10"
+print " January = 11"
+print " February = 12"
+print "###########################"
+print " "
+f_name=raw_input('Enter your first name: ')
+s_name=raw_input('Enter your last name: ')
+print "Enter your date of birth"
+month = raw_input('Month (1-12)?')
+day = raw_input('Day?')
+year = raw_input('Year?')
+
+A = int(month)
+B = int(day)
+C = int(year)/100
+D = int(year)%100
+
+
+if A == 11 or A == 12:
+    C=C-1
+    
+W=(13*A - 1)/5
+X=C/4
+Y=D/4
+Z = W + X + Y + B + C - 2*D
+R =  Z % 7
+while R<0:
+    R=R+7  
+if (R == 0):
+    day = "Sunday"
+elif (R == 1):
+    day = "Monday"
+elif (R == 2):
+    day = "Tuesday"
+elif (R == 3):
+    day = "Wednesday"
+elif (R == 4):
+    day = "Thursday"
+elif (R == 5):
+    day = "Friday"
+else:
+    day = "Saturday"
+    
+print f_name+" "+s_name+",your day is",day
+
+
+
+
+
+
+
+
+
